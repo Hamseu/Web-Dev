@@ -1,0 +1,121 @@
+.flex-container{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 18%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+body{
+    background-color: rgb(241, 244, 250);
+}
+
+
+div img{
+    position: relative;
+    left: -30px;
+    margin: 0px;
+}
+
+.bigletter{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:0px;
+    margin-right: 100px;
+}
+
+#left-side{
+    width: 50%;
+    height: 70%;
+}
+#right-side{
+    width:40%;
+}
+
+
+#input-box{
+    background-color: white;
+    border: 10px, solid, white;
+    border-radius: 10px;
+    padding: 5%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+#user-name{
+    width: 100%;
+    height: 15%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px, solid, rgb(212, 209, 209);
+    border-radius: 5px;
+}
+
+#pwd{
+   width: 100%;
+    height: 15%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px, solid, rgb(212, 209, 209);
+    border-radius: 5px;
+}
+
+#Log-In{
+    width: 100%;
+    font-size: 21px;
+    height: 15%;
+    margin-bottom: 10px;
+    background-color: rgb(7, 127, 232);
+    color: white;
+    border: 1px, solid, rgb(212, 209, 209);
+    border-radius: 7px;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#Log-In:hover{
+    cursor: pointer;
+    background-color: rgb(51, 166, 237);
+}
+
+#forgotpass{
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    left: 35%;
+    width: 33%;
+    text-decoration: none;
+    color:blue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#Create-account{
+    width: 50%;
+    font-size: 15px;
+    height: 15%;
+    margin-top: 20px;
+    background-color: rgb(10, 183, 45);
+    color: white;
+    border: 1px, solid, rgb(212, 209, 209);
+    border-radius: 10px;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    left:25%;
+}
+
+#celebrity_creation{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#low-writing{
+    position: relative;
+    left: 13%;
+    font-size: auto;
+    width: 74%;
+}
