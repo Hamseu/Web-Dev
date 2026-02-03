@@ -1,0 +1,205 @@
+main{
+    display:flex;
+    margin:0px;
+    padding: 5px;
+    height: 650px;
+    width: 100%;
+
+}
+#iil{
+    width:90px;
+    height:90px;
+    position:relative;
+    left:40px;
+    top:40px;
+}
+body{
+    margin:0;
+}
+
+#pht{
+    width: 480px;
+    height: 380px;
+    position:relative;
+    left: 15%;
+
+
+}
+#left-side{
+    width:57%;
+    border-right: 2px solid rgba(134, 134, 134, 0.418);
+    border-bottom: 1px solid rgba(134, 134, 134, 0.418);
+}
+#right-side{
+    width: 43%;
+    border-bottom: 1px solid rgba(134, 134, 134, 0.418);
+}
+#right-side p{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position:relative;
+    margin-top:65px;
+    left: 7%;
+}
+#left-side  p{
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position:relative;
+    margin-top:65px;
+    left: 15%;
+    width:60%;
+
+}
+#left-side p span{
+    background-image: linear-gradient(to right, orange, purple); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.inp{
+    position:relative;
+    font-size: 19px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid gray;
+    border-radius: 12px;
+    height: 8%;
+    left:7%;
+    margin-right: 10%;
+    width: 85%;
+
+}
+#pwd{
+    margin-top: 20px;
+}
+
+#LogIn{
+    position:relative;
+    border-radius: 17px;
+    border-width: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(46, 117, 193);
+    color: white;
+    margin-top: 20px;
+    width: 85%;
+    left: 7%;
+    height: 7%;
+}
+
+#LogIn:hover{
+    background-color: rgb(76, 117, 193);
+    cursor:not-allowed;
+}
+
+#forgotbut{
+    position:relative;
+    border-radius: 17px;
+    border-width: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    width: 85%;
+    left: 7%;
+    height: 7%;
+}
+#forgotbut:hover{
+    background-color: rgb(235, 231, 231);
+}
+
+#fpht{
+    width: 18px;
+    height: 18px;
+}
+#LogInF{
+    
+    position:relative;
+    border-radius: 17px;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    margin-top: 40px;
+    width: 85%;
+    left: 7%;
+    height: 7%;
+}
+
+#LogInF:hover{
+    background-color: rgb(235, 231, 231);
+}
+
+#create-account{
+    position:relative;
+    border-radius: 17px;
+    border:1px solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: white;
+    color: blue;
+    margin-top: 20px;
+    width: 85%;
+    left: 7%;
+    height: 7%;
+}
+
+#create-account:hover{
+    background-color: rgb(235, 231, 231); ;
+}
+
+#mtl{
+    width:18px;
+    height: 18px;
+}
+
+#Meta{
+    font-size:18px;
+    position: relative;
+    margin-top: 20px;
+    width: 33%;
+    left: 46%;
+}
+footer{
+    width: 100%;
+    position:absolute;
+    bottom:0px;
+    height:50px;
+
+}
+footer ul{
+    position:relative;
+    left: 8%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+footer ul li{
+    float: left;
+    
+    display: block;
+  color: rgb(113, 113, 113);
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+footer #credits{
+    position: absolute;
+    left: 39%;
+    margin-top: 20px;
+}
+
+footer ul li a{
+    display: block;
+  color: rgb(113, 113, 113);
+  text-align: center;
+  margin-top:0;
+  padding: 5px;
+  text-decoration: none;
+}
