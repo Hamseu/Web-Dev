@@ -1,0 +1,5 @@
+<div class = "grid-container">
+      @for (product of products(); track product.id) {
+    <user-card [product]="product"></user-card>
+  }
+</div>
