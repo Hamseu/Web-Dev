@@ -1,0 +1,16 @@
+header{
+    border: 0px outset aliceblue;
+    background-color: aliceblue;
+    width: 100%;
+    height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+    margin-top: 0px;
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+header h2{
+    margin:auto;
+}

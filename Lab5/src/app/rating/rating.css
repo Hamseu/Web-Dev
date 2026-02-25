@@ -1,0 +1,42 @@
+.rating {
+  font-size: 24px;
+  line-height: 1;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.star {
+  font-size: 24px;
+  display: inline-flex;
+  gap: 0;
+}
+
+.star-container {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.star-empty {
+  color: #ccc;
+  position: absolute;
+  left: 0;
+}
+
+.star-fill {
+  overflow: hidden;
+  color: #f5c518;
+  position: absolute;
+  left: 0;
+  display: block;
+}
+
+.value-rating {
+  font-weight: bold;
+  color: #333;
+   min-width: 30px;
+   margin-left: 16px;
+}

@@ -1,0 +1,14 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-top: 24px;
+    margin-bottom: 36px;
+    margin-left:24px;
+    margin-right:24px;
+}
+
+.empty{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+}

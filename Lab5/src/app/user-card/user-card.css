@@ -1,0 +1,97 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px outset rgb(244, 239, 239);
+  margin: 12px;
+  overflow: hidden;
+  padding: 4px;
+  height: 420px;
+}
+
+div #LC{
+  margin-left: -3px;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.imagein-card {
+  width: 100%;
+  height: 200px; 
+  object-fit:contain;
+}
+
+
+h5 {
+  font-size: 16px;
+  margin: 12px 16px 8px 16px;
+}
+
+h5 a {
+  color: #111;
+  text-decoration: none;
+}
+
+h5 a:hover{
+    cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+  color: #000000;
+  margin: 0 16px 12px 16px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin: 0 16px 12px 16px;
+}
+
+.share-buttons{
+    display: flex;
+    position:relative;
+    margin-top: -4px;
+    margin-bottom: 12px;
+    left: 10%;
+    gap: 8px;
+    align-items: center;
+}
+
+.share-buttons button{
+    padding: 0px;
+    border-radius: 6px;
+    margin: 6px;
+    border: 0px inset white;
+    border-radius: 50%;
+}
+.share-buttons button:hover, .share-buttons img:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 2px black;
+    transform: scale(1.2);
+}
+
+.share-buttons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+.likEr{
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    background-color: white;
+}
+
+.removeButton{
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  color: white;
+}

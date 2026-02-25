@@ -1,0 +1,12 @@
+<p class = "empty">
+  @if (products().length == 0){
+  No products left, refresh the page
+  }
+</p>
+
+
+<div class = "grid-container">
+      @for (product of products(); track product.id) {
+          <user-card (deleteID) = "itemDelete($event)" [product]="product"></user-card>
+  }
+</div>

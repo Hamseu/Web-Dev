@@ -1,0 +1,15 @@
+<article class = "card">
+        <img class="imagein-card" [src]="product.imageUrl" [alt]="product.label" (error)="onImageError($event)"
+  />
+        <h5><a [href] = "product.link" >{{product.label}}</a></h5>
+        <p>{{product.description}}</p><br>
+        <app-rating [value] = "product.rating"></app-rating>
+        <h6>{{product.price | currency:'KZT ' }}</h6>
+        <div class = "share-buttons">
+            <button type = "button" (click)  = "removeItem()" class = "removeButton" aria-label = "Remove Product">X</button>
+            <button type = "button" (click) = "Wshare()" class = "Whatsapp-share"  aria-label="Share on WhatsApp"><img src = "Whats2.png"/></button>
+            <button type = "button" (click) = "Tshare()" class = "Telegramm-share"  aria-label="Share on Telegramm"><img src = "Telega.png" /></button>
+            <button type = "button" (click) = "addLike()" class = "likEr" aria-label = "Like the product">❤️</button>
+            <span id = "LC"> {{likeCount}}</span>
+        </div>
+</article>
