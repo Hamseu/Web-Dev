@@ -1,0 +1,18 @@
+.flexi-container{
+    display: flex;
+    min-height: 100vh;
+}
+
+app-navigation-panel{
+    width: 220px;            
+    min-width: 220px;
+    background-color: rgb(40, 37, 37);
+    border-bottom-right-radius: 8px;
+}
+
+.content{
+    flex: 1;              
+    padding: 16px;
+    min-width: 0;
+    overflow-y: auto; 
+}

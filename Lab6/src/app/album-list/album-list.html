@@ -1,0 +1,19 @@
+@if (service.loading()) {
+  <p class="loading">Albums are loading...</p>
+} @else {
+<div class="grid-container">
+  @for (album of albums(); track album.id) {
+    <div class="single-album">
+      <a [routerLink]="['/albums', album.id]">
+        {{ album.title }}, {{ album.id }}
+      </a>
+      <br />
+      <button
+        type="button"
+        (click)="deleteMe(album.id)"
+        class="delete-album"
+      >X</button>
+    </div>
+  }
+</div>
+}

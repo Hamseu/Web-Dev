@@ -1,0 +1,33 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 12px;
+}
+
+.single-album{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-left: 5px;
+    background-color: rgb(208, 202, 202);
+    border: 2px solid black;
+}
+
+.single-album a{
+    text-decoration: none;
+    color: black;
+}
+
+.delete-album{
+    justify-self: end;
+    background-color: rgb(208, 202, 202);
+    color: red;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+}
+
+.loading{
+  padding: 24px;
+  font-size: 18px;
+  opacity: 0.7;
+}

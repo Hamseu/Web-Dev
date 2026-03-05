@@ -1,0 +1,19 @@
+<div class = "some-box">
+    <div class = "title-area flex-container">
+        <span class = "flexitem">
+              {{album().title}}
+        </span>
+        <span class = "flexitem">
+              {{album().id}}
+        </span>
+        <span class = "flexitem">
+              {{album().userId}}
+        </span>
+    </div>
+<input type ="text" [placeholder] = "album().title" [value]="" id = "textfield" #titleInput>
+<div class = "button-area flex-container">
+    <a routerLink = "/albums" class = "backer">Back</a>
+    <button type = "button" (click) = "changeMe(titleInput.value, album().id)">Rename</button>
+    <button class="photosbutton" [routerLink]="['/albums', album().id, 'photos']">View Photos</button>
+</div>
+</div>

@@ -1,0 +1,9 @@
+<span class = "buttone"> <button class = "backer2" [routerLink] = "['/albums', album().id]">Back</button></span>
+<div class = "grid-container">
+      @for (photo of album().photos; track photo.id){
+        <div class = "photocard">
+             <h5>{{photo.title}}</h5>
+             <img class = "photoitself" [src] = "photo.url" (error) = "onImageError($event)">
+        </div>
+      }
+</div>
